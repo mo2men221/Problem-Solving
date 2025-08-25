@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+#include <cctype>
+int main() {
+    int a;
+    int b;
+    char s;
+    cin >> a >> s >> b;
+    if (s == '+') {
+        cout << a + b;
+    }
+    else if ( s == '-') {
+        cout << a - b;
+    }
+    else if (s == '*') {
+        cout << a * b;
+    }
+    else {
+        cout << int( a / b);
+    }
+}
